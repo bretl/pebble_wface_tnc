@@ -1,0 +1,64 @@
+{
+    "appKeys": {
+        "AppKeyBackgroundColor = 0,   AppKeyForegroundColor = 1,   AppKeySecondTick = 2,   AppKeyAnimations = 3 } AppKeyShowMinTicks": 1,
+        "AppKeyShowHourTicks": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "Bret",
+    "enableMultiJS": false,
+    "longName": "The Nature Conservancy Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/spur_icon.png",
+                "menuIcon": true,
+                "name": "SPUR_ICON",
+                "targetPlatforms": [
+                    "aplite",
+                    "basalt",
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
+            {
+                "file": "images/spur.png",
+                "name": "SPUR_IMAGE",
+                "targetPlatforms": [
+                    "aplite",
+                    "basalt",
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
+            {
+                "file": "images/spurs_icon.png",
+                "name": "SPURS_ICON",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/spurs.png",
+                "name": "SPURS_IMAGE",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "TNC",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "682a1ba3-6eeb-4e61-af1c-747f0f0fe40c",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
